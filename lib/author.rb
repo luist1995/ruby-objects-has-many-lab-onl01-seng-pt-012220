@@ -22,6 +22,6 @@ class Author
     Post.all.length 
   end
   
-  
+  def author_name
   
 end
