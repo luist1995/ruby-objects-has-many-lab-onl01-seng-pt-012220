@@ -9,7 +9,7 @@ class Author
     Post.all.select {|array| array.author == self}
   end
   
-  def add_song(song)
+  def add_post(post)
     array.author = self
   end
   
