@@ -14,7 +14,7 @@ class Author
     array.author = self
   end
   
-  def add_post_by_title(title)
+  def add_post_by_title(name)
     new_post = Post.new(title)
     add_post(new_post)
   end
