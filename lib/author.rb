@@ -22,4 +22,6 @@ class Author
     Post.all.length 
   end
   
+  
+  
 end
