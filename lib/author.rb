@@ -23,7 +23,7 @@ class Author
   end
   
   def author_name
-    Author.name.any? |name| ? return : nil
+    author.name.any? |name| ? return : nil
   end
   
 end
