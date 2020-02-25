@@ -15,8 +15,8 @@ class Song
     @@all
   end
   
-   def author_name
-    @author ? @author.name : nil
+   def artist_name
+    @song ? @artist.name : nil
   end
   
 end
