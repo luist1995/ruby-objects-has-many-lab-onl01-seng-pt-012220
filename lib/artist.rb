@@ -14,5 +14,7 @@ class Artist
     song.artist = self
   end
   
-
+  def add_song_by_name(name, genre = nil)
+    new_song = Song.new(name, genre)
+    add_song(song)
 end
